@@ -124,8 +124,8 @@ body {
 }
 
 
-.innerPara{
-  height:500px;
-  background-color:red;
+/* .innerPara{
+  height:auto;
+  background-color:rgb(0, 0, 0);
   font-size:36px
-}
+} */
