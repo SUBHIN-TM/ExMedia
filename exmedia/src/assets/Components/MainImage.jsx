@@ -26,9 +26,9 @@ const MainImage = () => {
           <div className='w-1/12 items-center '>
             <div className=' mt-64 text-4xl  sm:text-6xl pl-12 '>
               <span className='text-red-500 bg-black px-5'> EXMEDIA </span>
-              <p className='text-white px-5 sm:py-2 '>GRAPHICS</p>
-              <p className='text-white px-5 sm:py-2'>TRANSFORMING</p>
-              <p className='text-white px-5 sm:py-2'>BUSINESS STRATEGY</p>
+              <p className='text-white px-5 sm:py-2 hover:text-red-500 '>GRAPHICS</p>
+              <p className='text-white px-5 sm:py-2 hover:text-red-500'>TRANSFORMING</p>
+              <p className='text-white px-5 sm:py-2 hover:text-red-500'>BUSINESS STRATEGY</p>
             </div>
           </div>
           <div className='flex justify-start'>
