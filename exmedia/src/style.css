@@ -97,3 +97,35 @@ body {
     cursor: pointer;
   }
   
+
+
+
+  
+.rotatingHeader {
+	margin-bottom:2vw;
+
+	width:fit-content;
+	white-space:nowrap;
+
+}
+
+.rotatingHeader h1{
+	font-family: 'Saira Extra Condensed', sans-serif;
+	color:#444;
+	font-size:100px;
+	margin:0;
+	padding:0;
+	line-height:0.5;
+	perspective:600px;
+}
+
+.rotatingHeader h1:nth-child(2) {
+	color:#efefef;
+}
+
+
+.innerPara{
+  height:500px;
+  background-color:red;
+  font-size:36px
+}

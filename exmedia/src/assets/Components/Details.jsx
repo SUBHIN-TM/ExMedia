@@ -1,10 +1,33 @@
-const Details =()=>{
-    return(
+import para from '../Img/1.jpg'
+const Details = () => {
+
+    return (
         <>
-        <h1>WHO WE ARE EX MEDIA</h1>
-        <p>Since 2006, Exmedia has been a trailblazing Advertisement agency, driving brand success through innovation, creativity, and strategic excellence. With an illustrious history, we've honed our craft to deliver impactful campaigns that transcend conventional boundaries. From dynamic visuals to compelling narratives, our diverse expertise in advertising, design, and branding has fueled the growth of numerous clients. We're not just an agency; we're your partners in shaping brand legacies. With a deep understanding of market dynamics, consumer behavior, and emerging trends, Exmedia is your compass to navigate the ever-evolving advertising landscape, ensuring your brand remains at the forefront of industry innovation.
-Based on our strategy work, we create distinctive brand Your Ultimate Advertisement Company, where innovation meets creativity to redefine your brand's journey. Our agency stands as a pillar of excellence, providing a comprehensive suite of services including Studio, Graphics, and Branding. Step into our cutting-edge studio, a hub of ingenuity where ideas take shape. From brainstorming sessions to concept realization, our team collaborates to bring your vision to life. Our studio is the birthplace of dynamic campaigns that captivate and resonate.</p>
+            <div className="parallax" style={{
+                backgroundImage: `url(${para})`,
+                height: '500px',
+                backgroundAttachment: 'fixed',
+                backgroundPosition: 'center',
+                backgroundRepeat: 'no-repeat',
+                backgroundSize: 'cover'
+            }}>
+            </div>
+            <div className='innerPara'>
+                Scroll Up and Down this page to see the parallax scrolling effect.
+                This div is just here to enable scrolling.
+                Tip: Try to remove the background-attachment property to remove the scrolling effect.
+            </div>
+            <div className="parallax" style={{
+                backgroundImage: `url(${para})`,
+                height: '500px',
+                backgroundAttachment: 'fixed',
+                backgroundPosition: 'center',
+                backgroundRepeat: 'no-repeat',
+                backgroundSize: 'cover'
+            }}>
+            </div>
         </>
+
     )
 }
 
